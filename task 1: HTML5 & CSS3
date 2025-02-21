@@ -3,48 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internship Task</title>
+    <title>My GitHub Repository</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>My Repository</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<header>
-    <h1>Welcome to My Internship Project</h1>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>This repository contains a project that demonstrates HTML5, CSS3, and JavaScript functionalities.</p>
+            </div>
+        </section>
 
-<main>
-    <section id="home">
-        <h2>Home Section</h2>
-        <p>This is the homepage content.</p>
-    </section>
+        <section id="features">
+            <div class="container">
+                <h2>Features</h2>
+                <ul>
+                    <li>Responsive design</li>
+                    <li>Interactive UI</li>
+                    <li>Clean code structure</li>
+                    <li>Cross-browser compatibility</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Information about the company.</p>
-    </section>
+        <section id="installation">
+            <div class="container">
+                <h2>Installation</h2>
+                <p>To clone this repository, use the following commands:</p>
+                <pre><code>git clone https://github.com/username/repository.git</code></pre>
+            </div>
+        </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>Description of the services offered.</p>
-    </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>For more details, visit <a href="https://github.com/username/repository" target="_blank">my GitHub repository</a>.</p>
+            </div>
+        </section>
+    </main>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>How to reach us.</p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2025 My Internship Project</p>
-</footer>
-
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My GitHub Repository</p>
+        </div>
+    </footer>
 </body>
 </html>
+
+#CSS3
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+pre {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
